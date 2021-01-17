@@ -1,0 +1,29 @@
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2.4rem;
+}
+
+.title p {
+    font-size: 1.5rem;
+}
+
+.foto {
+    width: 100%;
+}
+
+.foto img {
+    width: 70%;
+    border-radius: 50%;
+}

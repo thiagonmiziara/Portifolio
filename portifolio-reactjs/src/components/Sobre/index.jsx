@@ -1,19 +1,25 @@
 import React from "react";
-
+import styles from "./Sobre.module.css";
+import Front from "../assets/front.png";
 const Sobre = () => {
   return (
     <section>
-      <h1>Sobre</h1>
-      <div>
-        <p>
-          Para você que não me conhece, vou descrever algumas das minhas
-          principais características. A comunicação e ser uma pessoa de fácil
-          relacionamento se destacam das demais. Amo tecnologia, pois vejo como
-          esta facilita a vida cotidiana das pessoas, principalmente pelo fato
-          de possibilitar que todos tenham acesso a informação, justamente por
-          isso estou estudando e me empenhando em front-end (html, css, js,
-          react, Angular, dentre outras tecnologias).
-        </p>
+      <h1 className={styles.title}>Sobre</h1>
+      <div className={styles.container}>
+        <div className={styles.img}>
+          <img src={Front} alt="Front-end developer" />
+        </div>
+        <div className={styles.description}>
+          <p>
+            Para você que não me conhece, vou descrever algumas das minhas
+            principais características. A comunicação e ser uma pessoa de fácil
+            relacionamento se destacam das demais. Amo tecnologia, pois vejo
+            como esta facilita a vida cotidiana das pessoas, principalmente pelo
+            fato de possibilitar que todos tenham acesso a informação,
+            justamente por isso estou estudando e me empenhando em front-end
+            (html, css, js, React, dentre outras tecnologias).
+          </p>
+        </div>
       </div>
     </section>
   );

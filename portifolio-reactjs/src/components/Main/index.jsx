@@ -3,12 +3,22 @@ import Foto from "../assets/thiago.png";
 import styles from "./Main.module.css";
 
 const Main = () => {
+ { /*const [texto, setTexto] = React.useState('')
+  const frase = "ola mundo!"
+  const array = frase.split('');
+  array.forEach((item, index)=>{
+    setTimeout(() => {
+      setTexto(item) 
+    }, index * 80);
+  })*/}
+
+
     
     return (
     <main className={styles.content}>
       <div className={styles.title}>
        <h1>
-       Desenvolvedor Front-end
+       Front-end
       </h1>
       <p>Thiago Nunes Miziara</p>
       </div>

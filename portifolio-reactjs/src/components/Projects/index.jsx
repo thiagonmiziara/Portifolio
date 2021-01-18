@@ -1,11 +1,27 @@
-import React from 'react'
+import React from "react";
+import ObjProjects from "../../ObjProjects/index";
+import styles from "./Projects.module.css";
 
 const Projects = () => {
   return (
-    <div>
-      <h1>Projetos</h1>
-    </div>
-  )
-}
+    <>
+      <section className={styles.container}>
+      <h1 className={styles.title}>Projetos</h1>
+        <div className={styles.projectsCard}>
+          {ObjProjects.map((item) => (
+            <div key={item.title}>
+              <div className={styles.projectsDescription}>
+                <h1>{item.title}</h1>
+                <img src={item.img} alt={item.title} />
+                <p>{item.description}</p>
+                <a href={item.link}target="_blank">Repositório</a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </>
+  );
+};
 
 export default Projects;

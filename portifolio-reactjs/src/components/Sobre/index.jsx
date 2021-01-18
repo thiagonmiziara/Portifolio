@@ -12,7 +12,7 @@ const Sobre = () => {
         <div className={styles.description}>
           <p>
             Para você que não me conhece, vou descrever algumas das minhas
-            principais características. A comunicação e ser uma pessoa de fácil
+            principais características: a cecomunicação e ser uma pessoa de fácil
             relacionamento se destacam das demais. Amo tecnologia, pois vejo
             como esta facilita a vida cotidiana das pessoas, principalmente pelo
             fato de possibilitar que todos tenham acesso a informação,

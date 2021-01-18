@@ -1,0 +1,60 @@
+.title {
+    text-align: center;
+    font-size: 2.4rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 100%;
+    background: rgb(26, 25, 25);
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.projectsCard {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.projectsDescription {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 1rem;
+    background: rgb(46, 45, 45);
+    color: white;
+}
+
+.projectsDescription h1 {
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.projectsDescription img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.projectsDescription p {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    font-weight: 100;
+    padding: 0.3rem;
+}
+
+.projectsDescription a {
+    text-decoration: none;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    color: black;
+}

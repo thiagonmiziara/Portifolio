@@ -6,6 +6,21 @@
     color: rgb(255, 255, 255);
     height: 5rem;
     font-weight: bold;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-left: 1rem;
 }
 
 .list {
@@ -17,4 +32,5 @@
 
 .list li {
     margin-right: 1rem;
+    cursor: pointer;
 }

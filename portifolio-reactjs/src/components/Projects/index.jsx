@@ -5,7 +5,7 @@ import styles from "./Projects.module.css";
 const Projects = () => {
   return (
     <>
-      <section className={styles.container}>
+      <section className={styles.container} id="projetos">
       <h1 className={styles.title}>Projetos</h1>
         <div className={styles.projectsCard}>
           {ObjProjects.map((item) => (

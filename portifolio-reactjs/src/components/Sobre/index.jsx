@@ -4,7 +4,7 @@ import Front from "../assets/front.png";
 
 const Sobre = () => {
   return (
-    <section>
+    <section id="sobre">
       <h1 className={styles.title}>Sobre</h1>
       <div className={styles.container}>
         

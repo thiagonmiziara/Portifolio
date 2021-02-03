@@ -1,14 +1,15 @@
 import React from "react";
 import styles from "./Sobre.module.css";
 import Front from "../assets/front.png";
+
 const Sobre = () => {
   return (
     <section>
       <h1 className={styles.title}>Sobre</h1>
       <div className={styles.container}>
-        <div className={styles.img}>
+        
           <img src={Front} alt="Front-end developer" />
-        </div>
+        
         <div className={styles.description}>
           <p>
             Para você que não me conhece, vou descrever algumas das minhas

@@ -7,7 +7,7 @@
 
 .container {
     width: 100%;
-    background: rgb(26, 25, 25);
+    background: #7e57c2;
     text-align: center;
     margin: 0 auto;
     padding: 0;
@@ -25,11 +25,12 @@
 .projectsDescription {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid #7e57c2;
     border-radius: 6px;
     padding: 1rem;
-    background: rgb(46, 45, 45);
+    background: #673ab7;
     color: white;
+    box-shadow: 0 0 10px 5px;
 }
 
 .projectsDescription h1 {
@@ -53,8 +54,8 @@
     text-decoration: none;
     padding: 1rem;
     cursor: pointer;
-    background-color: #ccc;
-    border-radius: 4px;
+    background-color: #7e57c2;
+    border-radius: 1rem;
     font-size: 1.2rem;
-    color: black;
+    color: white;
 }

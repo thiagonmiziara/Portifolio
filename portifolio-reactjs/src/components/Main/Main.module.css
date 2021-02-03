@@ -1,14 +1,16 @@
 .content {
     width: 100%;
+    height: 70vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 1rem;
+    background-color: #7e57c2;
 }
 
 .title {
     width: 100%;
     text-align: center;
+    color: white;
 }
 
 .title h1 {
@@ -25,5 +27,5 @@
 
 .foto img {
     width: 70%;
-    border-radius: 50%;
+    border-radius: 1rem;
 }

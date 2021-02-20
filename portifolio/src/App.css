@@ -1,0 +1,18 @@
+.app {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1288px;
+    padding: 0 15px;
+    min-height: 100vh;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+@media (min-width: 800px) {
+    .app {
+        padding: 0 100px;
+        min-height: 90vh;
+        margin-bottom: 0;
+    }
+}

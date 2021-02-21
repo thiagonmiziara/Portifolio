@@ -2,24 +2,25 @@ import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 import img from "../../assets/thiago.png";
+import { Container,Content,Title,P, Button, Person, Img } from "./styled";
 
 const Home = () => {
   return (
-    <div className="home">
-      <div className="title">
-        <h1>
-          <p>Oi,</p>
-          <p>Eu sou o Thiago</p>
-          <p>Front-end Developer</p>
-        </h1>
+    <Container>
+      <Content>
+        <Title>
+          <P>Oi,</P>
+          <P>Eu sou o Thiago</P>
+          <P>Front-end Developer</P>
+        </Title>
         <Link to="/sobre">
-          <button>Mais Informações</button>
+          <Button>Mais Informações</Button>
         </Link>
-      </div>
-      <div className="person">
-        <img src={img} alt="thiago" />
-      </div>
-    </div>
+      </Content>
+      <Person>
+        <Img src={img} alt="thiago" />
+      </Person>
+    </Container>
   );
 };
 

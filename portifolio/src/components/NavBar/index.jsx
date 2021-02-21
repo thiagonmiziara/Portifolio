@@ -35,7 +35,7 @@ const NavBar = () => {
       <div className="nav-wrapper">
         <div className="logo">
           <Link to="/">
-            <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" />
           </Link>
         </div>
         <div className="list-wrapper">

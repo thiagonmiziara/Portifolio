@@ -19,6 +19,8 @@
 .logo img {
     width: 100%;
     margin-left: -18px;
+    width: 50px;
+    padding-top: 10px;
 }
 
 .list-wrapper {

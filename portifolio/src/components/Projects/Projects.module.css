@@ -30,10 +30,8 @@
 .projectsDescription {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid #7e57c2;
     border-radius: 6px;
     padding: 1rem;
-    background: #673ab7;
     color: white;
     box-shadow: 0 0 10px 5px;
 }
@@ -58,7 +56,6 @@
 .projectsDescription a {
     text-decoration: none;
     cursor: pointer;
-    background-color: #7e57c2;
     border-radius: 1rem;
     font-size: 1.2rem;
     color: white;

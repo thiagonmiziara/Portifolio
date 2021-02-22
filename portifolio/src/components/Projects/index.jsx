@@ -9,10 +9,10 @@ const Projects = () => {
           {ObjProjects.map((item) => (
             <div key={item.title}>
               <div className={styles.projectsDescription}>
-                <h1>{item.title}</h1>
+              <a href={item.link}target="_blank"> 
                 <img src={item.img} alt={item.title} />
-                <p>{item.description}</p>
-                <a href={item.link}target="_blank">Repositório</a>
+                
+                </a>
               </div>
             </div>
           ))}

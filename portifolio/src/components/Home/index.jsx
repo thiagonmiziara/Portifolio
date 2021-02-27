@@ -1,24 +1,41 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-import img from "../../assets/thiago.png";
-import { Container,Content,Title,P, Button, Person, Img } from "./styled";
+import img from "../../assets/thiagobg.png";
+import {
+  Container,
+  Content,
+  Title,
+  P,
+  Button,
+  Person,
+  Img,
+  Name,
+} from "./styled";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
     <Container>
       <Content>
-        <Title>
-          <P>Oi,</P>
-          <P>Eu sou o Thiago</P>
-          <P>Front-end Developer</P>
-        </Title>
-        <Link to="/sobre">
-          <Button>Mais Informações</Button>
-        </Link>
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1.4 }}
+          transition={{ duration: 0.5 }}
+        >
+          <Title>
+            <P>Oi,</P>
+            <P>Eu sou o </P> <Name>Thiago</Name>
+            <P>Front-end Developer</P>
+          </Title>
+          <Link to="/sobre">
+            <Button>Mais Informações</Button>
+          </Link>
+        </motion.div>
       </Content>
+
       <Person>
-        <Img src={img} alt="thiago" />
+        <Img src={img} alt="Thiago" />
       </Person>
     </Container>
   );

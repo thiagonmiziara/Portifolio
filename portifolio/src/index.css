@@ -5,25 +5,31 @@
 
 body {
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #121214;
+    font-family: 'Source Code Pro', monospace;
+    
 }
 
 body::-webkit-scrollbar {
     display: none;
+
 }
 
 .container {
     margin: 0 auto;
-    padding: 0 15px;
+    padding-top: 40px;
+    height: 80%;
     max-width: 1288px;
+    overflow: hidden;
+    
 }
 
 p {
     line-height: 30px;
-    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 h1,
 h2 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Source Code Pro', monospace;
 }

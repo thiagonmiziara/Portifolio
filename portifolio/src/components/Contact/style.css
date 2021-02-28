@@ -1,5 +1,6 @@
 .contact {
     flex-grow: 1;
+    
 }
 
 .contact h1 {
@@ -15,4 +16,5 @@
 
 .contact p {
     margin-bottom: 10px;
+    align-items: center;
 }

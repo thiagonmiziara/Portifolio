@@ -94,11 +94,11 @@
     }
     .list-wrapper ul li a {
         padding: 5px;
-        color: #FFFFFF;
+        color:  #fff;
     }
     .list-wrapper ul li a:hover {
         padding: 5px;
-        color: #333333;
+        color:  #61b8db;
         transform: scale(0.8);
         background: transparent;
     }

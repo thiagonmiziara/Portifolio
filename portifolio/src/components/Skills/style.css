@@ -1,7 +1,7 @@
 .title{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    color:#52C1DE;
+    color:#ff9500;
     font-size: 3rem;
 }
 .skills{
@@ -13,6 +13,7 @@
 
 .skills div h2{
     margin: 1rem;
+    color: #ff9500;
 }
 
 

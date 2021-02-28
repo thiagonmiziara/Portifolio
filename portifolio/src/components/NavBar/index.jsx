@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./style.css";
 import logo from "../../assets/logo.png";
-import menuBars from "../../assets/menu-bars.png";
-import closeMenu from "../../assets/close-menu-icon.png";
+import menuBars from "../../assets/mobile-menu.png";
+import closeMenu from "../../assets/xMenu.png";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -63,7 +63,7 @@ const NavBar = () => {
             <li>
               <Link
                 to="/"
-                style={{ color: location.pathname === "/" && "  #61b8db" }}
+                style={{ color: location.pathname === "/" && "  #ff9500" }}
                 onClick={handleClose}
               >
                 Inicio
@@ -72,7 +72,7 @@ const NavBar = () => {
             <li>
               <Link
                 to="/sobre"
-                style={{ color: location.pathname === "/sobre" && "#61b8db" }}
+                style={{ color: location.pathname === "/sobre" && "#ff9500" }}
                 onClick={handleClose}
               >
                 Sobre
@@ -82,7 +82,7 @@ const NavBar = () => {
               <Link
                 to="/habilidades"
                 style={{
-                  color: location.pathname === "/habilidades" && "  #61b8db",
+                  color: location.pathname === "/habilidades" && "  #ff9500",
                 }}
                 onClick={handleClose}
               >
@@ -93,7 +93,7 @@ const NavBar = () => {
               <Link
                 to="/projetos"
                 style={{
-                  color: location.pathname === "/projetos" && "  #61b8db",
+                  color: location.pathname === "/projetos" && "  #ff9500",
                 }}
                 onClick={handleClose}
               >
@@ -104,7 +104,7 @@ const NavBar = () => {
               <Link
                 to="/contato"
                 style={{
-                  color: location.pathname === "/contato" && "  #61b8db",
+                  color: location.pathname === "/contato" && "  #ff9500",
                 }}
                 onClick={handleClose}
               >

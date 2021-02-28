@@ -5,7 +5,7 @@
 .sobre h1 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    color:#61b8db;
+    color:#ff9500;
     font-size: 3rem;
 
 }
@@ -23,6 +23,6 @@
 
 @media (min-width: 800px){
     .sobre h1{
-        color: #004E95 ;
+        color: #ff9500 ;
     }
 }

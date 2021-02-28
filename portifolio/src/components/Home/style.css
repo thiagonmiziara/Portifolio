@@ -34,7 +34,7 @@
   font-weight: 600;
   font-family: bold;
   font-size: 3.5rem;
-  color:#61b8db;
+  color:#ff9500;
 }
 .button {
   border: none;
@@ -45,7 +45,7 @@
   color: #ffffff;
   padding: 10px 15px;
   border-radius: 999px;
-  background:  #004E95;
+  background:  #ff9500;
   font-family: 'Source Code Pro', monospace;
 }
 
@@ -57,7 +57,7 @@
 
 .imgThiago {
   width: 100%;
-  background: linear-gradient(30deg, #fff 50%, #004E95 50%) no-repeat;
+  background: #ff9500;
   border-radius: 50%;
   margin-top: 1rem;
 }
@@ -78,7 +78,7 @@
     font-size: 6rem;
   }
   #name{
-    color: #004E95;
+    color: #ff9500;
   }
   .title {
     border-radius: 50%;

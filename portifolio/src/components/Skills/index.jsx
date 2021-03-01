@@ -41,20 +41,7 @@ const defaultOptions ={
           </h2>
         </div>
 
-        <div>
-          <h2>
-            <img src={Js} alt="JavaScript" />
-            <span>JavaScript</span>
-          </h2>
-          <h2>
-            <img src={react} alt="React" />
-            <span>React</span>
-          </h2>
-          <h2>
-            <img src={Next} alt="Nextjs" />
-            <span>Next.Js</span>
-          </h2>
-        </div>
+        
 
         <div>
           <h2>
@@ -69,7 +56,25 @@ const defaultOptions ={
             <img src={Bootstrap} alt="Bootstrap" />
             <span>Bootstrap</span>
           </h2>
+
+
         </div>
+
+        <div>
+          <h2>
+            <img src={Js} alt="JavaScript" />
+            <span>JavaScript</span>
+          </h2>
+          <h2>
+            <img src={react} alt="React" />
+            <span>React</span>
+          </h2>
+          <h2>
+            <img src={Next} alt="Nextjs" />
+            <span>Next.Js</span>
+          </h2>
+        </div>
+        
         <div className="gif">
           <Lottie
           options={defaultOptions}

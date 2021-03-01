@@ -1,13 +1,13 @@
 .title {
-    text-align: center;
+    text-align: left;
     font-size: 2.4rem;
-    color: white;
+    color:#ff9500;
     margin-bottom: 1rem;
+
 }
 
 .container {
     width: 100%;
-    background: #ffffff;
     text-align: center;
     margin: 0 auto;
     padding: 0;
@@ -17,7 +17,7 @@
     width: 80%;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2.5rem;
+    gap: 1rem;
     margin: 0 auto;
 }
 
@@ -32,32 +32,15 @@
     margin: 0 auto;
     border-radius: 6px;
     padding: 1rem;
-    color: white;
-    box-shadow: 0 0 10px 5px;
+    color:#ff9500;
+    box-shadow: 0 0 1px 1px;
 }
 
-.projectsDescription h1 {
-    font-weight: bold;
-    font-size: 2rem;
-}
+
 
 .projectsDescription img {
     width: 100%;
     border-radius: 4px;
 }
 
-.projectsDescription p {
-    font-size: .9rem;
-    line-height: 1.2;
-    font-weight: 100;
-    padding: 0.3rem;
-}
 
-.projectsDescription a {
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 1rem;
-    font-size: 1.2rem;
-    color: white;
-    padding: 5px;
-}

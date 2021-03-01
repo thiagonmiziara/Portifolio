@@ -1,6 +1,6 @@
-import React from 'react'
 import ObjProjects from "../../ObjProjects/index";
 import styles from "./Projects.module.css";
+
 const Projects = () => {
   return (
     <section className={styles.container} id="projetos">

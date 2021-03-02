@@ -9,7 +9,7 @@ const SliderContent = (props) => {
           key={index}
           className={index === props.activeIndex ? "slides active" : "inactive"}
         >
-            <img  className={"slide-image"} src={slide.img} alt={slide.title}/>
+            <img  className="slide-image" src={slide.img} alt={slide.title}/>
             <h3 className="slide-title">{slide.title}</h3>
             <p className="slide-text">{slide.description}</p>
         </div>

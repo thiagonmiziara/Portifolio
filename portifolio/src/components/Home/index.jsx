@@ -14,7 +14,7 @@ const Home = () => {
         </h1>
        
           <p> Eu sou o
-          <span id="name"> Thiago</span>
+          <span id="name"> Thiago,</span>
           </p>
         <p>Front-end Developer</p>
 

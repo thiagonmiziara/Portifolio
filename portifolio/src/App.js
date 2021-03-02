@@ -6,9 +6,8 @@ import "./App.css";
 import Sobre from "./components/Sobre";
 import NavBar from "./components/NavBar";
 import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import Slider from "./components/ProjectsSlider/Slider"
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -24,7 +23,7 @@ function App() {
           <Route exact path="/projetos" component={Slider} />
           <Route exact path="/contato" component={Contact} />
         </Switch>
-        </div>
+      </div>
      
     </Router>
   );

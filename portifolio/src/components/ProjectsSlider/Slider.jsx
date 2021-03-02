@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import sliderImage from "../../ObjProjects";
 import Arrows from "./Arrows";
-import Dots from "./Dots";
+
 import SlideContent from "./SliderContent";
 import "./slider.css";
 
@@ -20,7 +20,10 @@ const Slider = () => {
   },[activeIndex])
 
   return (
+    <>
+    <h1 className="title">Projetos</h1>
     <div className="slider-container">
+      
       <SlideContent activeIndex={activeIndex} />
       <Arrows
         prevSlide={() =>
@@ -30,11 +33,9 @@ const Slider = () => {
           setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
         }
       />
-      <Dots
-        activeIndex={activeIndex}
-        onClick={(activeIndex) => setActiveIndex(activeIndex)}
-      />
     </div>
+    
+    </>
   );
 };
 

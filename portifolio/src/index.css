@@ -1,7 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
+  }
+
+  :root {
+    --heights: 60vh;
+    --widths: 100%;
   }
   
   body {
@@ -26,13 +31,7 @@
     
   }
   
-  .container {
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 1280px;
-    width: 10px;
-    
-  }
+
   
   p {
     line-height: 10px;

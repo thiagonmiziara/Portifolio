@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import sliderImage from "../../ObjProjects";
 import Arrows from "./Arrows";
 import gitLogo from "../../assets/github.svg";
-
 import SlideContent from "./SliderContent";
+import {motion} from "framer-motion";
 import "./slider.css";
 
 const len = sliderImage.length - 1;
@@ -22,9 +21,20 @@ const Slider = () => {
 
   return (
     <>
-      <h1 className="title">Projetos</h1>
-    
+    <h1 className="title">Projetos</h1>
+      <motion.div
+          transition={{ delay: 0.2, duration: 0.7 }}
+          variants={{
+            show: { opacity: 1, y: "0" },
+            hidden: { opacity: 0, y: "100%" },
+          }}
+          initial="hidden"
+          animate="show"
+        >
+      
+
       <div className="slider-container">
+    
         <SlideContent activeIndex={activeIndex} />
         <Arrows
           prevSlide={() =>
@@ -34,16 +44,17 @@ const Slider = () => {
             setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
           }
         />
+       
       </div>
       <div className="link-git">
-      <p >
-        Mais Projetos em
-        <a href="https://github.com/thiagonmiziara" target='_blank'>
-          <img src={gitLogo} alt="Github" />
-        </a>
-        
-      </p>
+        <h3>
+          Mais Projetos em
+          <a href="https://github.com/thiagonmiziara" target="_blank">
+            <img src={gitLogo} alt="Github" />
+          </a>
+        </h3>
       </div>
+      </motion.div>
     </>
   );
 };

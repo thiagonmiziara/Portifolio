@@ -57,8 +57,10 @@ Sobre o seu projeto
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [React](https://pt-br.reactjs.org/)
+- [React Js](https://pt-br.reactjs.org/)
 -[Css](https://pt-br.css.org/)
+-[Framer-motion]
+-[lottie]
 
 
 ## :white_check_mark: Pré requisitos ##

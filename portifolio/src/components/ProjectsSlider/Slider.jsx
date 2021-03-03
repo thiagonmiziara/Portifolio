@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import sliderImage from "../../ObjProjects";
 import Arrows from "./Arrows";
+import gitLogo from "../../assets/github.svg";
 
 import SlideContent from "./SliderContent";
 import "./slider.css";
@@ -21,7 +23,7 @@ const Slider = () => {
   return (
     <>
       <h1 className="title">Projetos</h1>
-      <p>Mais Projetos em github.com</p>
+    
       <div className="slider-container">
         <SlideContent activeIndex={activeIndex} />
         <Arrows
@@ -32,6 +34,15 @@ const Slider = () => {
             setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
           }
         />
+      </div>
+      <div className="link-git">
+      <p >
+        Mais Projetos em
+        <a href="https://github.com/thiagonmiziara" target='_blank'>
+          <img src={gitLogo} alt="Github" />
+        </a>
+        
+      </p>
       </div>
     </>
   );

@@ -1,21 +1,29 @@
 import React from "react";
 import "./style.css";
+import gitLogo from "../../assets/github.svg"
+import linkedin from "../../assets/linkedin.svg"
 
 const Contact = () => {
   return (
     <section className="contact">
       <h1 className="title">Contato</h1>
 
-      <div>
-        <h4>Telefoe</h4>
-        <p>34 000 0000</p>
-
-        <h4>Email</h4>
-        <p>email@grmail.com</p>
-
-        <h4>Endereço</h4>
-        <p>Uberlândia</p>
+      <div className="contact-btns">
+        <a href="https://www.linkedin.com/in/thiago-nunes-miziara-92a85b6a/" target="_blank">
+          <img src={linkedin} alt="linkedin"/>
+          <p>
+            Linkedin
+          </p>
+        </a>
+        <a href="https://github.com/thiagonmiziara" target="_blank">
+          <img src={gitLogo} alt="Github"/>
+           <p>
+            Github
+           </p>
+          
+        </a>
       </div>
+      
     </section>
   );
 };

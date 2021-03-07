@@ -18,9 +18,8 @@
 
 .logo img {
     width: 100%;
-    margin-left: -18px;
     width: 50px;
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 
 .list-wrapper {
@@ -57,18 +56,18 @@
 
 .list-wrapper ul li a:hover {
     color: #000000;
-    background-color: #dddddd;
+    background-color: #ff9500;
 }
 
 .list-wrapper img {
     opacity: 0;
     z-index: 4;
     width: 40px;
+    height: 40px;
     right: 15px;
-    padding: 8px;
+    padding: 10px;
     position: absolute;
-    border-radius: 999px;
-    background-color: #dddddd;
+    border-radius: 50%;
     transition: all 0.5s ease-in-out;
 }
 
@@ -93,11 +92,11 @@
     }
     .list-wrapper ul li a {
         padding: 5px;
-        color: #000000;
+        color: #fff;
     }
     .list-wrapper ul li a:hover {
         padding: 5px;
-        color: #333333;
+        color: #ff9509;
         transform: scale(0.8);
         background: transparent;
     }

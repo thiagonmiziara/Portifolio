@@ -8,15 +8,34 @@
 
 .home .title {
     width: 100%;
-    font-size: 1rem;
+    font-size: 18px;
     text-align: center;
+    font-family: "Righteous", cursive;
+}
+
+.home h1 {
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+    font-weight: bold;
 }
 
 .home .title p {
     line-height: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-family: bold;
+    font-size: 3rem;
 }
 
-.home .title button {
+#name {
+    line-height: 50px;
+    font-weight: 600;
+    font-family: bold;
+    font-size: 3.5rem;
+    color: #ff9500;
+}
+
+.button {
     border: none;
     outline: none;
     cursor: pointer;
@@ -25,24 +44,28 @@
     color: #ffffff;
     padding: 10px 15px;
     border-radius: 999px;
-    background-color: #3f71f4;
-    font-family: cursive;
+    background: #ff9500;
+    font-family: 'Source Code Pro', monospace;
 }
 
-.home .person {
+.person {
     width: 100%;
     margin-top: 20px;
+    border-radius: 50%;
 }
 
-.person img {
-    border-radius: 999px;
+.imgThiago {
     width: 100%;
+    background: #ff9500;
+    border-radius: 50%;
+    margin-top: 1rem;
 }
 
 @media (min-width: 800px) {
     .home {
         flex-direction: row;
         justify-content: space-between;
+        gap: 3rem;
     }
     .home .title,
     .home .person {
@@ -51,7 +74,16 @@
         text-align: left;
         font-size: 25px;
     }
-    .home .person img {
-        width: 100%;
+    .home h1 {
+        font-size: 6rem;
+    }
+    #name {
+        color: #ff9500;
+    }
+    .title {
+        border-radius: 50%;
+    }
+    .imgThiago {
+        width: 80%;
     }
 }

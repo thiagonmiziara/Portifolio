@@ -1,0 +1,23 @@
+.sobre {
+    flex-grow: 1;
+}
+
+.sobre h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #ff9500;
+    font-size: 3rem;
+}
+
+.sobre p {
+    color: #fff;
+    font-weight: 600;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 800px) {
+    .sobre h1 {
+        color: #ff9500;
+    }
+}

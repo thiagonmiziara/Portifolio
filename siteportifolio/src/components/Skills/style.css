@@ -1,0 +1,50 @@
+.title {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ff9500;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+}
+
+.skills div {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills div h2 {
+    margin: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills div h2 span {
+    margin-top: 1rem;
+}
+
+.gif {
+    width: 100%;
+    border-radius: 4px;
+}
+
+@media (min-width: 800px) {
+    .skills {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .title {
+        text-align: left;
+    }
+}
+
+@media (min-width: 800px) {
+    .skills h1 {
+        color: #115799;
+    }
+}

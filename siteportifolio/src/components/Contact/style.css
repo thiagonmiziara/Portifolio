@@ -1,0 +1,54 @@
+.contact {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.contact-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-btns a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 25px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 900px;
+    transition: 0.25s all ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contact-btns a img {
+    width: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 800px) {
+    .contact-btns a {
+        font-size: 4rem;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .contact-btns a img {
+        width: 4rem;
+        margin-bottom: 0;
+        margin-left: 1rem;
+    }
+    .contact-btns a:hover:first-child {
+        background: #fff;
+        color: #015bae;
+    }
+    .contact-btns a:hover:last-child {
+        background: #fff;
+        color: black;
+    }
+}

@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +14,8 @@ body {
     font-family: 'Source Code Pro', monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(30deg, #015bae 40%, #01408f 50%) no-repeat;
+    /*background: linear-gradient(30deg, #015bae 40%, #01408f 50%) no-repeat;*/
+    background: url('./assets/bg.svg') no-repeat;
 }
 
 

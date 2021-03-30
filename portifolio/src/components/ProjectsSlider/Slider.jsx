@@ -49,7 +49,7 @@ const Slider = () => {
       <div className="link-git">
         <h3>
           Mais Projetos em
-          <a href="https://github.com/thiagonmiziara">
+          <a href="https://github.com/thiagonmiziara" target="_blank">
             <img src={gitLogo} alt="Github" />
           </a>
         </h3>

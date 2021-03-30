@@ -19,10 +19,7 @@ const Contact = () => {
           initial="hidden"
           animate="show"
         >
-          <a
-            href="https://www.linkedin.com/in/thiago-nunes-miziara-92a85b6a/"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/thiago-nunes-miziara-92a85b6a/">
             <img src={linkedin} alt="linkedin" />
             <p>Linkedin</p>
           </a>
@@ -36,11 +33,7 @@ const Contact = () => {
           initial="hidden"
           animate="show"
         >
-          <a
-          href="https://github.com/thiagonmiziara"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
+          <a href="https://github.com/thiagonmiziara">
             <img src={gitLogo} alt="Github" />
             <p>Github</p>
           </a>

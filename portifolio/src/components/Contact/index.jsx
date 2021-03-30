@@ -1,3 +1,5 @@
+//eslint-disable-next-line
+
 import React from "react";
 import "./style.css";
 import gitLogo from "../../assets/github.svg";
@@ -21,7 +23,7 @@ const Contact = () => {
         >
           <a
             href="https://www.linkedin.com/in/thiago-nunes-miziara-92a85b6a/"
-            target="_blank"
+            
           >
             <img src={linkedin} alt="linkedin" />
             <p>Linkedin</p>
@@ -36,7 +38,7 @@ const Contact = () => {
           initial="hidden"
           animate="show"
         >
-          <a href="https://github.com/thiagonmiziara" target="_blank">
+          <a href="https://github.com/thiagonmiziara" >
             <img src={gitLogo} alt="Github" />
             <p>Github</p>
           </a>

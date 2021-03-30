@@ -16,6 +16,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     /*background: linear-gradient(30deg, #015bae 40%, #01408f 50%) no-repeat;*/
     background: url('./assets/bg.svg') no-repeat;
+    background-size: cover;
 }
 
 

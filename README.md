@@ -48,9 +48,9 @@ Projeto Protifólio
 
 ## :sparkles: Funcionalidades ##
 
-:heavy_check_mark: Mostrar conhecimento 1;\
-:heavy_check_mark: Mostrar projetos desenvolvidos 2;\
-:heavy_check_mark: Funcionalidade 3;
+:heavy_check_mark: Mostrar conhecimento ;\
+:heavy_check_mark: Mostrar projetos desenvolvidos ;\
+
 
 ## :rocket: Tecnologias ##
 
